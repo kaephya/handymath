@@ -12,7 +12,20 @@ developing the children's brains and stimulating neural pathways from an early a
 
 ### How we created this
 - Take 100-150 photos of hand gestures 1-9, at different angles.
-- Train the AI model
+- Train the AI model.
+
+Examples of our photos:
+
+<img src="https://github.com/user-attachments/assets/664d47ab-0bda-4eb1-bd4c-6c7cbfe0e5d6" width="300" />
+
+*Hand gesture of 1.*
+
+ 
+<img src="https://github.com/user-attachments/assets/02b1198c-f7dc-4eb8-a916-42833fce6f5e" width="300" />
+ 
+*Hand gesture of 2.*
+
+
 
 
 # INSTALLATION INSTRUCTIONS
@@ -31,4 +44,4 @@ Install the following:
 
 
 
-  
+
