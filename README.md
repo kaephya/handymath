@@ -1,5 +1,7 @@
 # INSTRUCTIONS
 
+Connect to the IP address 192.168.55.1:8888.
+ 
 Install the following:
 - trt_pose https://github.com/NVIDIA-AI-IOT/trt_pose.git
 - trt_pose_hand https://github.com/NVIDIA-AI-IOT/trt_pose_hand.git
@@ -9,9 +11,9 @@ Install the following:
 - jetcam https://github.com/NVIDIA-AI-IOT/jetcam.git
 
 
-
 ### model training
-- We took 100-150 photos of hand gestures 1-9, at different angles.
+- Take 100-150 photos of hand gestures 1-9, at different angles.
+- Train the AT model
 
   
 # GAME DESCRIPTION
