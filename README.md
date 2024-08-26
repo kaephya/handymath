@@ -13,7 +13,7 @@ Install the following:
 
 ### model training
 - Take 100-150 photos of hand gestures 1-9, at different angles.
-- Train the AT model
+- Train the AI model
 
   
 # GAME DESCRIPTION
