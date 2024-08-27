@@ -10,7 +10,7 @@ developing the children's brains and stimulating neural pathways from an early a
 - The game runs in an infinite loop, randomly generating simple math problems of addition, subtraction, or multiplication.
 - The user can solve the problems by holding up hand gestures of numbers 1-9, one digit at a time.
 - An image is captured and run through a machine learning model. The model's output is processed to predict the digit that the user is holding up.
-- A predicted digit is saved if it matches the answer. AFterwards, the game provides feedback on the correct partial answer.
+- A predicted digit is saved if it matches the answer. Afterwards, the game provides feedback on the correct partial answer.
 - If the full answer is correct, the score is recorded, and a new question is generated.
 
 
@@ -35,10 +35,6 @@ Examples of our photos:
 
 # INSTALLATION INSTRUCTIONS
 
-Connect to the IP address 192.168.55.1:8888.
-
-Enter the password: jetson
- 
 Install the following:
 - trt_pose https://github.com/NVIDIA-AI-IOT/trt_pose.git
 - trt_pose_hand https://github.com/NVIDIA-AI-IOT/trt_pose_hand.git
@@ -46,6 +42,21 @@ Install the following:
 - jetracer https://github.com/NVIDIA-AI-IOT/jetracer.git
 - jupyter_clickable_image_widget https://github.com/jaybdub/jupyter_clickable_image_widget.git
 - jetcam https://github.com/NVIDIA-AI-IOT/jetcam.git
+
+### Setup
+
+<img src="https://github.com/user-attachments/assets/e5e4ae32-733c-4cc5-93f8-151ea9f2edd9" width="300" />
+*Jumper, circled in yellow*
+Using the jumper it 
+<img src="https://github.com/user-attachments/assets/9a94ab64-ff30-41fb-99fb-711b85ed3618" width="300" />
+*5V power bank*
+
+
+
+Connect to the IP address 192.168.55.1:8888.
+Enter the password: jetson
+ 
+
 
 
 
