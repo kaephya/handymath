@@ -16,7 +16,7 @@ developing the children's brains and stimulating neural pathways from an early a
 
 ### How we created this
 - Take 100-150 photos of hand gestures 1-9, at different angles.
-- Train the AI model.
+- Train the machine learning model.
 
 Examples of our photos:
 
@@ -33,8 +33,9 @@ Examples of our photos:
 
 
 
-# INSTALLATION INSTRUCTIONS
+# SETUP
 
+### Step 1 - Installing software
 Install the following:
 - trt_pose https://github.com/NVIDIA-AI-IOT/trt_pose.git
 - trt_pose_hand https://github.com/NVIDIA-AI-IOT/trt_pose_hand.git
@@ -43,18 +44,26 @@ Install the following:
 - jupyter_clickable_image_widget https://github.com/jaybdub/jupyter_clickable_image_widget.git
 - jetcam https://github.com/NVIDIA-AI-IOT/jetcam.git
 
-### Setup
+### Step 2 - Hardware
 
 <img src="https://github.com/user-attachments/assets/e5e4ae32-733c-4cc5-93f8-151ea9f2edd9" width="300" />
+ 
 *Jumper, circled in yellow*
-Using the jumper it 
+ 
+ 
 <img src="https://github.com/user-attachments/assets/9a94ab64-ff30-41fb-99fb-711b85ed3618" width="300" />
+ 
 *5V power bank*
+ 
+Use the jumper to change the direction of the electric flow from entering through the right cable to the left cable.
+Refer to the following video: https://youtu.be/jq1OqBe267A?si=WT8pU4tzvpYnxmEk
 
 
+The right cable (circled in red) connects the device to the network, while the left cable (circled in yellow) connects to the power bank which acts as a power source.
 
-Connect to the IP address 192.168.55.1:8888.
-Enter the password: jetson
+### Step 3 - Connect! 
+- Connect to the IP address 192.168.55.1:8888.
+- Enter the password: jetson
  
 
 
