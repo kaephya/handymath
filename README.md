@@ -56,7 +56,7 @@ Install the following:
 *5V power bank*
  
 Use the jumper to change the direction of the electric flow from entering through the right cable to the left cable.
-Refer to the following video: https://youtu.be/jq1OqBe267A?si=WT8pU4tzvpYnxmEk
+<br> Refer to the following video: https://youtu.be/jq1OqBe267A?si=WT8pU4tzvpYnxmEk
 
 
 The right cable (circled in red) connects the device to the network, while the left cable (circled in yellow) connects to the power bank which acts as a power source.
