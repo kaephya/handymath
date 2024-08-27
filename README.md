@@ -7,8 +7,12 @@ developing the children's brains and stimulating neural pathways from an early a
 
 
 ### How the game works
-- Simple math problems of addition, subtraction and multiplication are randomly generated.
+- The game runs in an infinite loop, randomly generating simple math problems of addition, subtraction, or multiplication.
 - The user can solve the problems by holding up hand gestures of numbers 1-9, one digit at a time.
+- An image is captured and run through a machine learning model. The model's output is processed to predict the digit that the user is holding up.
+- A predicted digit is saved if it matches the answer. AFterwards, the game provides feedback on the correct partial answer.
+- If the full answer is correct, the score is recorded, and a new question is generated.
+
 
 ### How we created this
 - Take 100-150 photos of hand gestures 1-9, at different angles.
@@ -28,9 +32,12 @@ Examples of our photos:
 
 
 
+
 # INSTALLATION INSTRUCTIONS
 
 Connect to the IP address 192.168.55.1:8888.
+
+Enter the password: jetson
  
 Install the following:
 - trt_pose https://github.com/NVIDIA-AI-IOT/trt_pose.git
